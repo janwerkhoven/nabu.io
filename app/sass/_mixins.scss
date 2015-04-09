@@ -1,0 +1,92 @@
+// MIXINS
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($values) {
+  -webkit-box-shadow: $values;
+  box-shadow: $values;
+}
+
+@mixin border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin perspective($values) {
+  -webkit-perspective: $values;
+  perspective: $values;
+}
+
+@mixin perspective-origin($values) {
+  -webkit-perspective-origin: $values;
+  perspective-origin: $values;
+}
+
+@mixin transform($values) {
+  -webkit-transform: $values;
+  -moz-transform: $values;
+  -ms-transform: $values;
+  -o-transform: $values;
+  transform: $values;
+}
+
+@mixin transform-origin($values) {
+  -webkit-transform-origin: $values;
+  transform-origin: $values;
+}
+
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $fromColor;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor));
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor);
+  background-image: -moz-linear-gradient(top, $fromColor, $toColor);
+  background-image: -ms-linear-gradient(top, $fromColor, $toColor);
+  background-image: -o-linear-gradient(top, $fromColor, $toColor);
+  background-image: linear-gradient(to bottom, $fromColor, $toColor);
+  background-repeat: repeat-x;
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+@mixin transition($values) {
+  -webkit-transition: $values;
+  -moz-transition: $values;
+  -o-transition: $values;
+  transition: $values;
+}
+
+@mixin clearfix {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@mixin prevent-user-select {
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@mixin responsive($value, $animated: true) {
+  @media all and ($value) {
+    @content;
+    @if $animated == true {
+      @include transition(all 500ms ease);
+    }
+  }
+}
+
+@mixin retina {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.33dppx) {
+    @content;
+  }
+}
