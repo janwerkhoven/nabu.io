@@ -1,7 +1,10 @@
-# tandarts-bakker.nl
+# nabu.io
 
 #### What
-The [website](http://nabu.io/) of Jan Werkhoven, a web developer / UI designer from Belgium, currently living in Melbourne, Australia. Built in 2013.
+The [website](http://nabu.io/) of Jan Werkhoven, a web developer / UI designer from Belgium, currently living in Melbourne, Australia. Website built in 2013.
+
+Get in touch via [LinkedIn](https://au.linkedin.com/pub/jan-werkhoven/10/64/b30), [GitHub](https://github.com/janwerkhoven) or jan@nabu.io.
+
 
 #### Built with
 * HTML5
@@ -12,11 +15,7 @@ The [website](http://nabu.io/) of Jan Werkhoven, a web developer / UI designer f
 * Illustrator
 
 #### Setup
-Requirements: Git, Node, Grunt
-
-Clone repo, build dist and run server:
+Requirements: Git
 
 1. `cd to/empty/folder/`
 2. `git clone git@github.com:janwerkhoven/nabu.io.git .`
-3. `grunt`
-4. Go to http://localhost:9000/
