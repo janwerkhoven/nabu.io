@@ -15,7 +15,6 @@ Get in touch via [LinkedIn](https://au.linkedin.com/pub/jan-werkhoven/10/64/b30)
 * Illustrator
 
 #### Setup
-Requirements: Git
 
-1. `cd to/empty/folder/`
+1. `mkdir -p ~/nabu/nabu.io && cd $_`
 2. `git clone git@github.com:janwerkhoven/nabu.io.git .`
