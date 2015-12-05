@@ -7,10 +7,10 @@ var ajaxIndex = 0;
 var nodes = [
   ['current', 790, 1500],
   ['logo', 790, 1500],
-  ['rhino', 790, 1500],
   ['guns', 2530, 1500],
   ['guns-code', 3253, 1396],
   ['guns-design', 3612, 1232],
+  ['rhino', 3913, 1574],
   ['black', 6235, 1500],
   ['black-article', 6735, 1565],
   ['projects1', 8110, 1500],
@@ -61,6 +61,7 @@ nabu = {
         activeNode++;
         var x = nodes[activeNode][1];
         var y = nodes[activeNode][2];
+        console.log(nodes[activeNode]);
         nabu.stage.move(x, y);
       };
     },
@@ -151,14 +152,14 @@ $(document).ready(function() {
   // console.log('document ready: ' + tdd);
 
   // AJAX
-  nabu.ajax.loadContent(0, 5);
+  // nabu.ajax.loadContent(0, 5);
 
   // STAGE
   nabu.stage.move(nodes[0][1], nodes[0][2], 0);
   // $('#stage').on('click', function(e) {
-  //     var x = e.pageX - $(this).position().left;
-  //     var y = e.pageY - $(this).position().top;
-  //     nabu.stage.move(x, y);
+  //   var x = e.pageX - $(this).position().left;
+  //   var y = e.pageY - $(this).position().top;
+  //   nabu.stage.move(x, y);
   // });
   $('#next').on('click', function(e) {
     nabu.stage.next();
