@@ -1,7 +1,7 @@
 # nabu.io
 
 #### What
-The show-off portfolio [website](http://nabu.io/) of Jan Werkhoven, a freelance web developer active in Melbourne, Australia.
+The show-off [portfolio website](http://nabu.io/) of Jan Werkhoven, a freelance web developer active in Melbourne, Australia.
 
 #### Highlights
 * One-page website with horizontal navigation
