@@ -1,20 +1,20 @@
 # nabu.io
 
 #### What
-The [website](http://nabu.io/) of Jan Werkhoven, a web developer / UI designer from Belgium, currently living in Melbourne, Australia. Website built in 2013.
+The show-off portfolio [website](http://nabu.io/) of Jan Werkhoven, a freelance web developer active in Melbourne, Australia.
 
-Get in touch via [LinkedIn](https://au.linkedin.com/pub/jan-werkhoven/10/64/b30), [GitHub](https://github.com/janwerkhoven) or jan@nabu.io.
+#### Highlights
+* One-page website with horizontal navigation
+* Asynchronous content using AJAX for faster initial load
+* Built with HTML, CSS3, JS, jQuery, Photoshop, Illustrator, Sublime & Git
+* Launched in 2013
 
-
-#### Built with
-* HTML5
-* CSS3
-* Javascript
-* jQuery
-* Photoshop
-* Illustrator
+#### Get in touch
+* <a href="mailto:jan@nabu.io">jan@nabu.io</a>  
+* [GitHub](https://github.com/janwerkhoven)  
+* [LinkedIn](https://au.linkedin.com/pub/jan-werkhoven/10/64/b30)
 
 #### Setup
-
-1. `mkdir -p ~/nabu/nabu.io && cd $_`
-2. `git clone git@github.com:janwerkhoven/nabu.io.git .`
+1. Create folder and move to it: `mkdir -p ~/nabu/nabu.io && cd $_`
+2. Clone this repo: `git clone git@github.com:janwerkhoven/nabu.io.git .`
+3. Start coding!
