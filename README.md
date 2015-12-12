@@ -9,8 +9,8 @@ The show-off [portfolio website](http://nabu.io/) of Jan Werkhoven, a freelance 
 * Built with HTML, CSS3, JS, jQuery, Photoshop, Illustrator, Sublime & Git
 * Launched in 2013
 
-#### Get in touch
-Feel free contact me via <a href="mailto:jan@nabu.io">jan@nabu.io</a>, [GitHub](https://github.com/janwerkhoven) or [LinkedIn](https://au.linkedin.com/pub/jan-werkhoven/10/64/b30)
+#### Contact
+Feel free to get in touch via <a href="mailto:jan@nabu.io">jan@nabu.io</a>, [GitHub](https://github.com/janwerkhoven) or [LinkedIn](https://au.linkedin.com/pub/jan-werkhoven/10/64/b30)
 
 #### Setup
 1. Create folder and move to it: `mkdir -p ~/nabu/nabu.io && cd $_`
